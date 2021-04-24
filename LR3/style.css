@@ -1,0 +1,13 @@
+h1 {
+color: rgb(22, 37, 28);
+background-color: red;
+border: 1px solid black;
+border-radius: 8px;
+padding: 12px;
+}
+
+h3:hover {
+color: rgb(138, 102, 66);
+text-shadow: 1px 1px 2px blue, 0 0 1em rgb(125, 77, 93);
+font-size:14pt;
+}
