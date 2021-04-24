@@ -1,2 +1,2 @@
-# dr-dredon.github.io
+#Lab3.github.io
 3 laba
