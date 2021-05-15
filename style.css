@@ -1,13 +1,52 @@
-h1 {
-color: rgb(22, 37, 28);
-background-color: red;
-border: 1px solid black;
-border-radius: 8px;
-padding: 12px;
+.shapka{
+    margin: left;
+    font-size: 300%;
+    color: #35D2AB;
+    text-shadow: #800053 -1px -1px 0, 
+                #FFDE40 1px 1px 0;
 }
-
-h3:hover {
-color: rgb(138, 102, 66);
-text-shadow: 1px 1px 2px blue, 0 0 1em rgb(125, 77, 93);
-font-size:14pt;
+.shapka:hover{
+    margin: left;
+    font-size: 300%;
+    color: #5B2680;
+    text-shadow: #24913C -1px -1px 0, 
+                #FFBF40 1px 1px 0;
+}
+.Name{
+    font-size: 180%;
+    color: #35D2AB;
+    text-shadow: #800053 1px 1px 0, 
+                #FFDE40 -1px -1px 0
+}
+.Group{
+    font-size: 180%;
+    color: #6F9C00;
+    text-shadow: 0 0 5px #35D2AB;
+}
+.AboutMe{
+    font-size: 180%;
+    color: #6F9C00;
+    text-shadow: 0 0 5px #35D2AB;   
+}
+.frame{
+    width: 800px;
+    border: 30px #5b0375; /* Параметры границы */
+    background: #a7b1b6a9; /* Цвет фона */
+    padding: 30px; /* Поля вокруг текста */
+    border-style: groove;
+}
+.Pizza{
+    width: 600px;
+    border: 20px double #580101; /* Параметры границы */
+    background: #cfd301a9; /* Цвет фона */
+    padding: 20px; /* Поля вокруг текста */
+    border-style:ridge;
+}
+.image{
+    position: absolute;
+    left: 555px;
+    top: 220px;
+    margin: auto;
+    height: 150px;
+    width: 250px;
 }

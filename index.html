@@ -1,55 +1,65 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-      <meta charset="utf-8">
-      <title>>HTML документ</title>
-      <script src ="scriptmy.js"></script>
-      <title>>Первый</title>
-    </head>
-    <body bgcolor="#808080">
-
-<h1 align="center"> Доброе время суток, дорогие посетители сайта </h1>
-
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
-<center><b> ИЗ №1 </b><p></p>
-Введите числа:<br><br>
-a = <input type="text" name="A" size="5">
-b = <input type="text" name="B" size="5">
-<input type="button" value="Вывести"onClick="Max ()" / > ><br> ><br>
-Результат = < тип вывода= "текст" имя= "x1" размер= "15"> >& nbsp; & nbsp;&nbsp;;
-</center>
-</form>
-<br><br>
-
-
-<center><b> ИЗ №2 </b><p></p>
-< имя формы="form2">
-    <h3>Имя</h3>
- Введите имя : 
-    <input type="button" value="Вывести"onClick="Check ()" / > ><br> ><br>
-    </center> 
-</form>
-<br><br>
-
-<center><b> ИЗ №3 </b><p></p>
- 
-      <h3>Возраст</h3>
-      <input type="button" value="Вывести"onClick="Age ()" / > ><br> ><br>
-      </center> 
-  </form>
-
-  <center><b> ИЗ №4 </b><p></p>
- ФИО: Иванов Дмитрий Ильич <br>
- Пол: Мужской <br>
- Возраст: 21 лет
-        <br><br>
- Дополнительная информация = <input type="text" name="Info" size="20">
-        <br><br>
-      <center><img src="wick.jpg" alt="Photo" width="250" height="250">
-        <br><br>
-        <input type="button" value="Показать место проживания" onClick="Show()" /><br><br>
-        </center> 
-    </form>
-
-</body>
+    <body>
+        <div class="frame">
+            <table width="800" cellpadding="10" cellspacing="10" >
+                <caption class="shapka">Резюме для лабораторной работы 3</caption>
+                <col width="10">
+                <tr class="Name">
+                    <td >ФИО:</td>
+                    <td><p id="SecondName">Иванов Дмитрий Ильич</p></td>
+                    <td><input type="text" value="" id="txt"> <input type="button" value="Смена ФИО" onclick="rename()"></td>
+                </tr>
+                <tr class="Group">
+                    <td>Группа:</td>
+                    <td>АДБ 18-07 <img class="image" src="Pizzauolo.jpg"></td>
+                </tr>
+            </table>
+            <table width="800" cellpadding="20" cellspacing="0" > 
+                <col width="500">
+                <tr class="AboutMe">
+                    <td>Немного о себе:</td>
+                </tr>
+                <tr>
+                    <td class="Pizza"> <input type="button" value="Смена цвета фона" onclick="Rnd()"> <p id="Pizza">
+                        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░▄▄▄░░░░░░░░░
+                        ░░░░░░░░░░░░░░▄▄▄▄▄▄▄▄░░░░░░█████▄░░░░░░
+                        ░░░░░░░░░▄▄█████████████▀░░▄░░▀████▄░░░░
+                        ░░░░░░▄▄███▀▀░░▄▄▄▄▄▄░░▀░░████▄░▀████░░░
+                        ░░░░▄███▀░▄▄██████▀▀███░░▄█▀▀░▀▀▄░▀███▄░
+                        ░░░▄██▀░▄███▀▀▀███▄▄██░░▄██░░░░░█▄░▀███░
+                        ░░███░▄██████████████▀░░███▄░░░▄██▄░████
+                        ░███░▄████░█████░▀██▀░░█████████▀▀▀░░░░░
+                        ▄██░░██████▀▀███████░░▀▀▀▀▀░░░░░░░░░░░░░
+                        ███░██████░░░░█████░░░░░░░░░▄▄▄▄░░██░░░░
+                        ██░░██████▄░░▄█████▄▄▄█████▀▀███░░██░░░░
+                        ███░███▄░▀█████▀▀███████████████░░██░░░░
+                        ███░▀██████▀████▄▄█████▄▄███▀███░▄██░░░░
+                        ░██▄░██████▄▄██████▀▀▀█████▄▄██░░██▀░░░░
+                        ░▀██▄░▀█▀▀████████░░░░░███████░░██▀░░░░░
+                        ░░▀██▄░▀███████████▄░▄▄█████▀░▄██▀░░░░░░
+                        ░░░░▀██▄░░▀███▄▄▄████████▀▀░▄███▀░░░░░░░
+                        ░░░░░░▀███▄░░▀▀▀▀▀▀▀▀▀▀░░▄▄███▀░░░░░░░░░
+                        ░░░░░░░░▀▀████▄▄▄▄▄▄▄▄█████▀░░░░░░░░░░░░
+                        ░░░░░░░░░░░░░▀▀▀▀▀▀▀▀▀▀░░░░░░░░░░░░░░░░░
+                        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                        ░░░░░░░█████████████████████████░░░░░░░░
+                        ░░░░░░░█────█───█────█────█────█░░░░░░░░
+                        ░░░░░░░█─██─██─████──███──█─██─█░░░░░░░░
+                        ░░░░░░░█────██─███──███──██────█░░░░░░░░
+                        ░░░░░░░█─█████─██──███──███─██─█░░░░░░░░
+                        ░░░░░░░█─████───█────█────█─██─█░░░░░░░░
+                        ░░░░░░░█████████████████████████░░░░░░░░
+                        ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="script.js"> </script>
+    </body>
 </html>
